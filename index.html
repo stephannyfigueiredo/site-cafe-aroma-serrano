@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Aroma Serrano — Torrefação Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="index.html" class="logo">
+        <span class="logo-marca">Aroma Serrano</span>
+        <span class="logo-sub">Torrefação Especial</span>
+      </a>
+
+      <button
+        type="button"
+        class="menu-hamburguer"
+        id="btn-menu"
+        aria-label="Abrir ou fechar menu"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+          <li><a href="sobre.html" class="menu-link">Sobre</a></li>
+          <li><a href="produtos.html" class="menu-link">Produtos</a></li>
+          <li><a href="contato.html" class="menu-link">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="container banner-conteudo">
+        <span class="eyebrow">Origem de Altitude • Lotes Artesanais</span>
+        <h1>Café especial direto da serra</h1>
+        <p>
+          Torrefação artesanal em pequenos lotes, com grãos selecionados de altitude e aroma marcante do interior.
+        </p>
+        <div class="banner-acoes">
+          <a href="produtos.html" class="btn btn-primario">Conheça nossos cafés</a>
+          <a href="sobre.html" class="btn btn-contorno">Nossa história</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <span class="eyebrow">Excelência em cada etapa</span>
+          <h2 class="titulo-secao">Por que escolher a gente?</h2>
+        </div>
+
+        <div class="grid-cards">
+          <article class="card">
+            <div class="card-icone" aria-hidden="true">01</div>
+            <h3>Torra Fresca sob Demanda</h3>
+            <p>
+              Curvas de torra precisas em pequenos lotes para realçar a doçura natural, a acidez equilibrada e o frescor sensorial.
+            </p>
+            <a href="produtos.html?categoria=Grãos" class="link-editorial">Explorar grãos &rarr;</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icone" aria-hidden="true">02</div>
+            <h3>Terroir da Serra</h3>
+            <p>
+              Parceria direta com produtores familiares de altitude, garantindo rastreabilidade e colheita seletiva de grãos maduros.
+            </p>
+            <a href="sobre.html" class="link-editorial">Conhecer origem &rarr;</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icone" aria-hidden="true">03</div>
+            <h3>Curadoria Personalizada</h3>
+            <p>
+              Da feira regional para a sua casa, orientamos a moagem e o perfil sensorial ideais para o seu método de preparo.
+            </p>
+            <a href="contato.html" class="link-editorial">Falar com o torrefador &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <div class="rodape-bloco">
+        <strong class="rodape-titulo">Café Aroma Serrano</strong>
+        <p>Torrefação artesanal de cafés especiais da serra.</p>
+      </div>
+      <div class="rodape-bloco">
+        <span class="rodape-label">Atendimento</span>
+        <p>(22) 99812-3456</p>
+        <p>contato@aromaserrano.com.br</p>
+      </div>
+      <div class="rodape-bloco">
+        <span class="rodape-label">Redes Sociais</span>
+        <div class="redes-sociais">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="rodape-base">
+      <div class="container">
+        <p>&copy; <span id="ano-atual">2026</span> Café Aroma Serrano. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

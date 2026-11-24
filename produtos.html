@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos — Café Aroma Serrano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="index.html" class="logo">
+        <span class="logo-marca">Aroma Serrano</span>
+        <span class="logo-sub">Torrefação Especial</span>
+      </a>
+
+      <button
+        type="button"
+        class="menu-hamburguer"
+        id="btn-menu"
+        aria-label="Abrir ou fechar menu"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+          <li><a href="sobre.html" class="menu-link">Sobre</a></li>
+          <li><a href="produtos.html" class="menu-link">Produtos</a></li>
+          <li><a href="contato.html" class="menu-link">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao">
+      <div class="container">
+        <div class="cabecalho-produtos">
+          <div>
+            <span class="eyebrow">Seleção da Torrefação</span>
+            <h1 class="titulo-secao">Nossos produtos</h1>
+          </div>
+
+          <div class="filtros-produtos" role="group" aria-label="Filtrar produtos por categoria">
+            <button type="button" class="filtro-btn ativo" data-categoria="Todos">Todos</button>
+            <button type="button" class="filtro-btn" data-categoria="Grãos">Grãos</button>
+            <button type="button" class="filtro-btn" data-categoria="Moídos">Moídos</button>
+            <button type="button" class="filtro-btn" data-categoria="Acessórios">Acessórios</button>
+          </div>
+        </div>
+
+        <div class="grid-produtos" id="lista-produtos">
+          <article class="produto-card" data-categoria="Grãos">
+            <div class="produto-imagem">
+              <img src="img/produto-cafe.jpg" alt="Pacote de café em grãos Serrano Clássico" />
+            </div>
+            <div class="produto-corpo">
+              <span class="produto-tag">Grãos</span>
+              <h2>Serrano Clássico • 250g</h2>
+              <p>Torra média equilibrada com notas de chocolate ao leite, caramelo e corpo aveludado.</p>
+              <p class="produto-preco">R$ 36,90</p>
+            </div>
+          </article>
+
+          <article class="produto-card" data-categoria="Grãos">
+            <div class="produto-imagem">
+              <img src="img/reserva-altitude.jpg" alt="Pacote de café em grãos Reserva da Altitude" />
+            </div>
+            <div class="produto-corpo">
+              <span class="produto-tag">Grãos</span>
+              <h2>Reserva da Altitude • 250g</h2>
+              <p>Microlote cultivado acima de 1.150m, com aroma floral delicado e finalização cítrica refrescante.</p>
+              <p class="produto-preco">R$ 44,00</p>
+            </div>
+          </article>
+
+          <article class="produto-card" data-categoria="Moídos">
+            <div class="produto-imagem">
+              <img src="img/coado-manha.jpg" alt="Pacote de café moído Coado da Manhã" />
+            </div>
+            <div class="produto-corpo">
+              <span class="produto-tag">Moídos</span>
+              <h2>Coado da Manhã • 500g</h2>
+              <p>Moagem média calibrada para métodos filtrados, com doçura persistente e baixa acidez.</p>
+              <p class="produto-preco">R$ 56,00</p>
+            </div>
+          </article>
+
+          <article class="produto-card" data-categoria="Moídos">
+            <div class="produto-imagem">
+              <img src="img/doce-vale.jpg" alt="Pacote de café moído Doce Vale" />
+            </div>
+            <div class="produto-corpo">
+              <span class="produto-tag">Moídos</span>
+              <h2>Doce Vale • 250g</h2>
+              <p>Torra média clara com notas sensoriais de rapadura, mel silvestre e frutas amarelas maduras.</p>
+              <p class="produto-preco">R$ 38,50</p>
+            </div>
+          </article>
+
+          <article class="produto-card" data-categoria="Acessórios">
+            <div class="produto-imagem">
+              <img src="img/produto-acessorio.jpg" alt="Chaleira bico de ganso em aço inox e coador" />
+            </div>
+            <div class="produto-corpo">
+              <span class="produto-tag">Acessórios</span>
+              <h2>Chaleira Bico de Ganso Inox</h2>
+              <p>Controle preciso do fluxo de água para extração uniforme em métodos coados especiais.</p>
+              <p class="produto-preco">R$ 149,90</p>
+            </div>
+          </article>
+
+          <article class="produto-card" data-categoria="Acessórios">
+            <div class="produto-imagem">
+              <img src="img/coador-ceramica.jpg" alt="Coador de cerâmica artesanal para café especial" />
+            </div>
+            <div class="produto-corpo">
+              <span class="produto-tag">Acessórios</span>
+              <h2>Coador de Cerâmica Artesanal</h2>
+              <p>Estabilidade térmica superior e ranhuras internas que valorizam a clareza da bebida final.</p>
+              <p class="produto-preco">R$ 78,00</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <div class="rodape-bloco">
+        <strong class="rodape-titulo">Café Aroma Serrano</strong>
+        <p>Torrefação artesanal de cafés especiais da serra.</p>
+      </div>
+      <div class="rodape-bloco">
+        <span class="rodape-label">Atendimento</span>
+        <p>(22) 99812-3456</p>
+        <p>contato@aromaserrano.com.br</p>
+      </div>
+      <div class="rodape-bloco">
+        <span class="rodape-label">Redes Sociais</span>
+        <div class="redes-sociais">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="rodape-base">
+      <div class="container">
+        <p>&copy; <span id="ano-atual">2026</span> Café Aroma Serrano. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

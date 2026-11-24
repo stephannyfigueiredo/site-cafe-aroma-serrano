@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre — Café Aroma Serrano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="index.html" class="logo">
+        <span class="logo-marca">Aroma Serrano</span>
+        <span class="logo-sub">Torrefação Especial</span>
+      </a>
+
+      <button
+        type="button"
+        class="menu-hamburguer"
+        id="btn-menu"
+        aria-label="Abrir ou fechar menu"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+          <li><a href="sobre.html" class="menu-link">Sobre</a></li>
+          <li><a href="produtos.html" class="menu-link">Produtos</a></li>
+          <li><a href="contato.html" class="menu-link">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <span class="eyebrow">Tradição &amp; Artesanato</span>
+          <h1 class="titulo-secao">Nossa história</h1>
+        </div>
+
+        <div class="sobre-grade">
+          <div class="sobre-texto">
+            <p>
+              A Café Aroma Serrano nasceu no interior do estado com o propósito de revelar na xícara a identidade pura das lavouras de altitude. Conduzida pelo Sr. Ricardo, a torrefação iniciou suas atividades conectando pequenos produtores locais a apreciadores que buscam sabor autêntico e transparência na origem.
+            </p>
+            <p>
+              Durante anos, construímos nossa reputação nas feiras da região e no atendimento próximo via WhatsApp, onde cada conversa ajudava clientes a descobrirem novos perfis sensoriais, notas de caramelo, chocolate amargo e frutas amarelas.
+            </p>
+            <p>
+              Hoje, unimos o cuidado da torra artesanal em pequenos lotes à praticidade digital, levando cafés recém-torrados da serra diretamente para a sua casa.
+            </p>
+          </div>
+
+          <figure class="sobre-imagem">
+            <img
+              src="img/sobre-torrefacao.jpg"
+              alt="Torrador artesanal de cobre com grãos de café recém-torrados na serra"
+            />
+          </figure>
+        </div>
+
+        <div class="mvv-grid">
+          <article class="mvv-card">
+            <span class="mvv-numero">I</span>
+            <h2>Missão</h2>
+            <p>
+              Torrar e entregar cafés especiais de origem rastreável com frescor máximo, transformando o ritual diário do café em uma experiência memorável.
+            </p>
+          </article>
+
+          <article class="mvv-card">
+            <span class="mvv-numero">II</span>
+            <h2>Visão</h2>
+            <p>
+              Consolidar-se como referência regional em cafés especiais artesanais, unindo transparência produtiva, estética contemporânea e atendimento humano.
+            </p>
+          </article>
+
+          <article class="mvv-card">
+            <span class="mvv-numero">III</span>
+            <h2>Valores</h2>
+            <p>
+              Respeito ao produtor da serra, rigor técnico em cada curva de torra, honestidade comercial e simplicidade elegante em tudo o que fazemos.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <div class="rodape-bloco">
+        <strong class="rodape-titulo">Café Aroma Serrano</strong>
+        <p>Torrefação artesanal de cafés especiais da serra.</p>
+      </div>
+      <div class="rodape-bloco">
+        <span class="rodape-label">Atendimento</span>
+        <p>(22) 99812-3456</p>
+        <p>contato@aromaserrano.com.br</p>
+      </div>
+      <div class="rodape-bloco">
+        <span class="rodape-label">Redes Sociais</span>
+        <div class="redes-sociais">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="rodape-base">
+      <div class="container">
+        <p>&copy; <span id="ano-atual">2026</span> Café Aroma Serrano. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
